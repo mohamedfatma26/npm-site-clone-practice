@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+}
+i {
+  float: left;
+}
+header.head-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 0.2px solid rgb(236, 236, 236);
+  font-family: "Roboto", sans-serif;
+}
+.gradient {
+  width: 100%;
+  height: 12px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 124, 0, 1) 0%,
+    rgba(255, 0, 0, 1) 50%,
+    rgba(156, 6, 186, 1) 100%
+  );
+}
+.navs {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  right: 140px;
+}
+.heart-text {
+  width: 300px;
+  font-size: 16px;
+  margin-left: 30px;
+}
+.top-right-head {
+  position: relative;
+  left: 140px;
+}
+a {
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  transition: color 0.2s;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+}
+a:hover {
+  color: gray;
+}
+.search-pack {
+  background-color: rgb(238, 238, 238);
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 1000px;
+}
+img.npm {
+  height: 50px;
+}
+.main-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 140px 20px 140px;
+}
+.search-pack input {
+  background-color: rgb(238, 238, 238);
+  border: none;
+  width: 900px;
+  font-size: 20px;
+}
+.search-pack input:focus {
+  outline: none;
+}
+.search-pack i {
+  margin-right: 10px;
+}
+.search-pack:focus-within {
+  border: 1px solid black;
+}
+.search-btn {
+  background-color: black;
+  color: white;
+  width: 100px;
+  padding: 12px;
+  box-sizing: border-box;
+  height: 43px;
+  border: none;
+  font-weight: bolder;
+}
+.search-btn:hover {
+  cursor: pointer;
+}
+.sign-up {
+  background-color: transparent;
+  color: black;
+  width: 100px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  transition: border 0.3s, color 0.3s;
+  font-weight: bolder;
+}
+.sign-up:hover {
+  cursor: pointer;
+  color: gray;
+  border: 1px solid gray;
+}
+.sign-in {
+  background-color: transparent;
+  color: black;
+  border: none;
+  width: 100px;
+  padding: 12px;
+  box-sizing: border-box;
+  transition: color 0.3s;
+  font-weight: bolder;
+}
+.sign-in:hover {
+  cursor: pointer;
+  color: gray;
+}
+.banner {
+  background-image: url("https://static.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png");
+  background-position: center center;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.closer {
+  width: 700px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-top: 40px;
+}
+.first-head {
+  font-size: 90px;
+  margin-bottom: 50px;
+}
+.first-p {
+  margin-bottom: 50px;
+}
+.second-head {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.second-p {
+  margin-bottom: 50px;
+}
+.signup-free {
+  color: black;
+  background-color: rgb(219, 187, 4);
+  border: none;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0px 14px 20px 6px rgba(0, 0, 0, 0.35);
+}
+.learn {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 15px 20px 15px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.closer-2 {
+  color: black;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 140px;
+}
+.img-2 {
+  margin-bottom: 40px;
+}
+.closer-2-head-1 {
+  font-size: 35px;
+  margin-bottom: 28px;
+}
+.love-os {
+  background-image: url("https://static.npmjs.com/3dc2ca3d2e53fc894b904d917cf90015.png");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.closer-3 {
+  text-align: center;
+  width: 500px;
+}
+.love-head {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.closer-4 {
+  color: black;
+  text-align: center;
+  width: 400px;
+}
+.closer-4 img {
+  width: 100%;
+  margin: 40px 0 140px 0;
+}
